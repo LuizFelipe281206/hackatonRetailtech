@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+}
+
+.example-feedbacks {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Para garantir que os cantos sejam arredondados */
+}
+
+.feedback-row {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Linha de separação */
+}
+
+.feedback-row:last-child {
+    border-bottom: none; /* Remove a linha da última entrada */
+}
+
+.feedback-praise {
+    background-color: #e8f9e8; /* Cor suave para elogios */
+}
+
+.feedback-critic {
+    background-color: #f9e8e8; /* Cor suave para críticas */
+}
+
+.feedback-warning {
+    background-color: #fef3cd; /* Cor suave para advertências (amarelo) */
+}
+
+.feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.feedback-table tr {
+    border-bottom: 1px solid #ccc; /* Linha de separação entre as linhas da tabela */
+}
+
+.feedback-table tr:last-child {
+    border-bottom: none; /* Remove a linha da última entrada */
+}

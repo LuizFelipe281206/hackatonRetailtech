@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GColab - Gestão de Operações</title>
+    <link rel="stylesheet" href="hackaton.css">
+</head>
+<body>
+    <header>
+        <img src="GCOLAB.png" alt="GCOLAB.png" class="logo">
+        <h1>Bem-vindo ao GColab</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSecao('home')">Início</a></li>
+                <li><a href="#" onclick="carregarFeedback()">Feedback</a></li> <!-- Carregar Feedback -->
+                <li><a href="#" onclick="mostrarSecao('cursos')">Treinamentos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Página inicial -->
+        <section id="home" class="secao ativa">
+            <h2>Gestão de Operações Simplificada</h2>
+            <p>A GColab oferece uma plataforma prática e acessível para gerenciar suas tarefas, receber feedback em tempo real, acompanhar suas metas e aprender continuamente.</p>
+        </section>
+
+        
+        <!-- Seção de Feedback (o conteúdo será carregado aqui) -->
+        <section id="feedback" class="secao">
+            <h2>Feedback</h2>
+            <div id="conteudoFeedback">
+                <!-- O conteúdo de feedback.html será carregado aqui -->
+            </div>
+        </section>
+
+        <!-- Metas -->
+        <!-- Cursos e Aprendizado Contínuo -->
+        <section id="cursos" class="secao">
+            <h2>Treinamentos e Aprendizado Contínuo</h2>
+            <ul id="listaCursos">
+                <li>Treinamento: Atendimento ao Cliente - <button onclick="window.location.href='curso_atendimento.html'">Iniciar</button></li>
+                <li>Treinamento: Operação de Caixa - <button onclick>Iniciar</button></li>
+                <li>Treinamento: Reposição de Estoque - <button onclick>Iniciar</button></li>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GColab - Plataforma de Varejo Inteligente</p>
+    </footer>
+
+    <script src="hackaton.js"></script>
+</body>
+</html>
